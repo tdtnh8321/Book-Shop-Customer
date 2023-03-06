@@ -16,8 +16,7 @@ A virtual site to buy book related products for customer
 * order tracking
 
 ## Technology
-* ReactJs
-* Tailwind css
+* Library: ReactJs, Tailwind css
 * React-router-dom v6
 * Redux-toolkit
 
