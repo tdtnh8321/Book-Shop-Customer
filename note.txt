@@ -1,0 +1,30 @@
+
+npm install --save axios
+npm install query-string
+
+npm i react-router-dom
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
+npm i react-query
+npm install --save firebase
+
+npm install @reduxjs/toolkit
+npm install react-redux
+
+{
+    totalPrice: 0, //tổng tiền
+    totalAmount: 0, //tổng số sp
+    items: [ //danh sách sp
+        {
+            _id,
+            name,
+            image,
+            price,
+            amount,
+            total,
+        }
+    ], 
+}
+
