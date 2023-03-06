@@ -17,7 +17,7 @@ A virtual site to buy book related products for customer
 
 ## Technology
 * Library: ReactJs, Tailwind css
-* React-router-dom v6
+* React router v6
 * Redux-toolkit
 
 
