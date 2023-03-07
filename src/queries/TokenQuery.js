@@ -1,9 +1,9 @@
 import { useQuery } from "react-query";
 import tokenApi from "../api/tokenApi";
 import axios from "axios";
-const fetchGetToken = async () => {
+const fetchGetToken = async (refresh_token) => {
   try {
-    const res = await tokenApi.getToken();
+    const res = await tokenApi.getToken(refresh_token);
     console.log(res);
     return res;
   } catch (error) {
