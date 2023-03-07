@@ -25,6 +25,7 @@ function LoginPage(props) {
       const res = await fetchApiLogin({ email, password });
       if (res.rs == 1) {
         toast.success(res.msg);
+        console.log(res);
         localStorage.setItem("firstLogin", res.refresh_token);
       } else {
         toast.error(res.msg);
