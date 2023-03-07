@@ -65,6 +65,7 @@ function ListProduct(props) {
           </div>
           <div className="flex flex-col items-center basis-2/3 w-full">
             <BookList data={listBookQuery.data} />
+
             {countPage.data && (
               <Pagination
                 numpages={countPage.data}

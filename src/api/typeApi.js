@@ -5,7 +5,7 @@ class TypeApi {
     const url = "/type";
     return axiosClient.get(url, {
       paramsSerializer: {
-        indexes: false, // empty brackets like `arrayOfUserIds[]`
+        indexes: false,
       },
     });
   };

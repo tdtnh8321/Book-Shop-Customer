@@ -5,7 +5,7 @@ class BookApi {
     const url = "/book/selling";
     return axiosClient.get(url, {
       paramsSerializer: {
-        indexes: false, // empty brackets like `arrayOfUserIds[]`
+        indexes: false,
       },
     });
   };
@@ -14,7 +14,7 @@ class BookApi {
     return axiosClient.get(url, {
       params,
       paramsSerializer: {
-        indexes: false, // empty brackets like `arrayOfUserIds[]`
+        indexes: false,
       },
     });
   };

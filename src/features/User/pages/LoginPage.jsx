@@ -23,7 +23,6 @@ function LoginPage(props) {
   const handleSubmit = async (e) => {
     try {
       const res = await fetchApiLogin({ email, password });
-
       if (res.rs == 1) {
         toast.success(res.msg);
         localStorage.setItem("firstLogin", true);

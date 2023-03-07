@@ -7,6 +7,7 @@ class TokenApi {
       paramsSerializer: {
         indexes: false,
       },
+      withCredentials: true,
     });
   };
 }

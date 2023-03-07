@@ -30,12 +30,9 @@ function App() {
     if (user.isLogged === true) {
       console.log("/");
       const actionQuery = async () => {
-        const res = await axios.get(
-          "http://localhost:3000/user/refresh_token",
-          null
-        );
-        console.log(res);
-        dispatch(getToken(res.data.access_token));
+        const res = await fetchGetToken();
+        console.log("access_token", res);
+        dispatch(getToken(res.access_token));
       };
       actionQuery();
     }

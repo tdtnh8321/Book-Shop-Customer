@@ -28,7 +28,7 @@ function BookCard(props) {
           src={item.image}
           alt=""
         />
-        <div className="bg-white text-orange-500 rounded-lg  opacity-0 m-auto absolute left-0 right-0 bottom-0 w-44 h-0 group-hover:opacity-100 group-hover:h-full group-hover:transition-all group-hover:ease-in-out group-hover:duration-500 ">
+        <div className="bg-white text-orange-500 rounded-lg  opacity-0 m-auto absolute left-0 right-0 top-0 w-44 h-0 group-hover:opacity-100 group-hover:h-full group-hover:transition-all group-hover:ease-in-out group-hover:duration-500 ">
           <p className="uppercase px-5 py-10">{item.name}</p>
           <div className="w-full flex flex-row px-5 justify-between items-center">
             <p>${item.price}</p>
