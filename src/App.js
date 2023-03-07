@@ -30,7 +30,10 @@ function App() {
     if (user.isLogged === true) {
       console.log("/");
       const actionQuery = async () => {
-        const res = await fetchGetToken();
+        const res = await axios.get(
+          "https://book-shop-server-dgwg.onrender.com/user/refresh_token",
+          { withCredentials: true }
+        );
         console.log("access_token", res);
         dispatch(getToken(res.access_token));
       };
