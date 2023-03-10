@@ -44,7 +44,7 @@ function LoginPage(props) {
         <div class="md:w-1/2 px-8 md:px-16">
           <h2 class="font-bold text-2xl text-[#002D74]">Login</h2>
           <p class="text-xs mt-4 text-[#002D74]">
-            If you are already a member, easily log in
+            Email: abc@123 Password: 123
           </p>
 
           <div class="flex flex-col gap-4">
